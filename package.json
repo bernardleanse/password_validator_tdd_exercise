@@ -1,0 +1,23 @@
+{
+  "name": "password_validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernardleanse/password_validator_tdd_exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bernardleanse/password_validator_tdd_exercise/issues"
+  },
+  "homepage": "https://github.com/bernardleanse/password_validator_tdd_exercise#readme",
+  "dependencies": {
+    "jest": "^27.4.6"
+  }
+}
