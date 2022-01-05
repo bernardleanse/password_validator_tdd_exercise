@@ -1,7 +1,13 @@
 class Validator {
-  constructor(){}
+  constructor(){
+    this.isPasswordValid = false
+    this.errorMessage = ''
+  }
   validate(pw){
-    return [false, 'Password must be at least 8 characters']
+    if(pw.length < 8){
+      this.errorMessage = 'Password must be at least 8 characters'
+    }
+    return [this.isPasswordValid , this.errorMessage]
   }
 }
 
